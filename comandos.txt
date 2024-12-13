@@ -1,0 +1,10 @@
+comando de backend
+npm init -y   //pára generar el packlock jason
+npm install "nombre paquete"  // para instalarlo modo produccion
+npm install -D "nombre"  //para crear en modo dersarrollo
+npm unistall "nombre"  // para desintalar el paquete especifico
+npm install   // sirve para generar la carpeta de nodemodule con todas las dependencia, de proyecto clonado
+npm install -D nodemon // packete especifico
+npm install express
+npm install -E name-package
+npm install handlebars fs-extra

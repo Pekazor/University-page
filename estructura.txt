@@ -1,0 +1,45 @@
+proyecto-universidad/
+│
+├── src/
+│   ├── config/
+│   │   ├── database.js         # Configuración de conexión a PostgreSQL
+│   │   └── jwt.js              # Configuración de JWT
+│   │
+│   ├── models/
+│   │   ├── usuario.model.js    # Modelo de operaciones para usuarios
+│   │   ├── alumno.model.js     # Modelo de operaciones para alumnos
+│   │   ├── carrera.model.js    # Modelo de operaciones para carreras
+│   │   └── materia.model.js    # Modelo de operaciones para materias
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js  # Lógica de autenticación
+│   │   ├── usuario.controller.js  # Lógica de gestión de usuarios
+│   │   ├── alumno.controller.js   # Lógica de gestión de alumnos
+│   │   └── carrera.controller.js  # Lógica de gestión de carreras
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js      # Rutas de autenticación
+│   │   ├── usuario.routes.js   # Rutas de usuarios
+│   │   ├── alumno.routes.js    # Rutas de alumnos
+│   │   └── carrera.routes.js   # Rutas de carreras
+│   │
+│   ├── middlewares/
+│   │   ├── auth.middleware.js  # Middleware de autenticación
+│   │   ├── validacion.middleware.js  # Middleware de validación de datos
+│   │   └── error.middleware.js # Middleware de manejo de errores
+│   │
+│   ├── utils/
+│   │   ├── validaciones.js     # Funciones de validación
+│   │   └── sanitizacion.js     # Funciones de sanitización de datos
+│   │
+│   └── database/
+│       └── script_inicial.sql  # Script de creación de base de datos
+│
+├── scripts/
+│   ├── crear_base_datos.sql    # Script para crear base de datos
+│   └── poblar_datos.sql        # Script para poblar datos iniciales
+│
+├── .env                        # Variables de entorno
+├── package.json                # Configuración de dependencias
+├── server.js                   # Archivo principal del servidor
+└── README.md                   # Documentación del proyecto
